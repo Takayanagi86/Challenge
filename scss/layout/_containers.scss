@@ -127,17 +127,31 @@
 
 
 .form-container {
-    width: 95%;
+    width: 1200px;
     padding: 0 15px;
+    margin: 38px auto 0;
+    .card-title {
+        margin-bottom: 38px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 111px;
+    .input-container:first-child {
+        margin-right: 40px;
+    }
 }
 
 .input-container {
     width: 100%;
     margin-bottom: 10px;
     .input {
-        width: 100%;
-        height: 35px;
-        padding: 5px 0;
+        margin-top: 10px;
+        width: 546.5px;
+        height: 28px;
+        padding: 8px 16px;
     }
 }
 .message-container {
@@ -147,11 +161,6 @@
         height: 88px;
         padding: 5px 0;
     }
-}
-.checkbox-container {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
 }
 .submit-btn-container {
     display: flex;
@@ -165,5 +174,8 @@
     .green {
         color: green;
     }
+}
+.name .telephone {
+    margin-right: 10px;
 }
 

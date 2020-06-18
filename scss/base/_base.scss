@@ -63,6 +63,55 @@
 
 
 ////////////////////////////////////////////
-// About Page Base Properties
+// Contact Page Base Properties
 ////////////////////////////////////////////
 
+
+  .contact-title {
+    font-family: 'Noto Sans', sans-serif;
+    font-size:36px;
+    font-weight:400;
+  }
+  .label {
+      font-weight: 600;
+      color: #333645;
+      line-height: 30px;
+      font-size:16px;
+  }
+
+  .l-name, .l-email, .message, .number {
+      &:after {
+        content: "*";
+        color: red;
+      }
+  }
+ 
+  .input {
+    background-color: #fff;
+    background-image: none;
+    border-radius: 2px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: inset 0 0 0 hsla(0,0%,100%,0);
+    letter-spacing: 1.2px;
+    border: 2px solid #d9d9d9;
+    font-size: .929em;
+    &:focus {
+        border-color: black;
+        outline: 0;
+    }
+  }
+
+  .required {
+    border-color: red;
+  }
+  .submit-btn-container {
+      .card-button {
+          a {
+            top: 10px;
+          }
+          img {
+            top: -15px;
+            right: -55px;
+          }
+      }
+  }
