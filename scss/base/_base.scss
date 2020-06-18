@@ -25,6 +25,18 @@
 * {
     font-family: 'Noto Sans';
 }
+
+.carousel-paragraph {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.godfrey{
+ margin-bottom: 10px;
+ font-weight: 700;
+}
+
 .card-title {
     font-size: 30px;
     letter-spacing: .5px;
@@ -115,3 +127,16 @@
           }
       }
   }
+
+////////////////////////////////////////////
+// Footer Base Properties
+////////////////////////////////////////////
+
+.divider {
+    content: "";
+    width: 90%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgba(97, 96, 96, 0.192);
+    margin: 50px 0;
+}

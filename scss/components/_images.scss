@@ -21,11 +21,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 530px;
-    width: 1183px;
+    width: 800px;
     position: absolute;
     top: 40px;
     left: 360px;
 }
+
+.quotemark {
+    transform: rotate(180deg);
+    margin-bottom: 20px;
+}
+.quotemark-two {
+    margin-left: 250px;
+}
+
 .card-image {
 
     height: 183px;

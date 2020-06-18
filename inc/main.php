@@ -3,6 +3,17 @@
         <div class="carousel-background">
             <div class="carousel-image"></div>
         </div>
+        <div class="carousel-info">
+            <div class="carousel-info-container">
+                <div class="quote">
+                    <img class="quotemark" src="img/quotemarks.png" alt="quotemarks">
+                    <div class="carousel-paragraph">VPH roofing has been working for us for a good few years and we have found them to be a very professional company with a good standard for workmanship. I recommend their work.</div>
+                    <div class="godfrey">Mr Godfrey</div>
+                    <div class="carousel-paragraph">Wherry Housing Association</div>
+                    <img class="quotemark-two" src="img/quotemarks.png" alt="quotemarks">
+                </div>
+            </div>
+        </div>
     </div>
     <div class="cards-container">
         <div class="card-container c-c-one">
