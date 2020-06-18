@@ -22,7 +22,44 @@
 ////////////////////////////////////////////
 // Main Page Base Properties
 ////////////////////////////////////////////
-
+* {
+    font-family: 'Noto Sans';
+}
+.card-title {
+    font-size: 30px;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+    color: #2f2583;
+    font-weight:700;
+    cursor: pointer;
+    word-spacing: 1px;
+    line-height: 1.5;
+    font-size:30px;
+    font-weight:700;
+    height:45px;
+    letter-spacing:0.5px;
+    line-height:45px;
+    margin-block-end:10px;
+    margin-block-start:0px;
+    margin-bottom:10px;
+    margin-inline-end:0px;
+    margin-inline-start:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    text-align:left;
+    text-size-adjust:100%;
+    text-transform:uppercase;
+    //width:367.656px;
+    word-spacing:1px;
+}
+.card-paragraph {
+    font-size: 16px;
+    word-spacing: 1px;
+    color: #333;
+    height: 96px;
+    line-height:24px;
+}
 
 
 ////////////////////////////////////////////

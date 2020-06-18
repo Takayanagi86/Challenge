@@ -3,11 +3,61 @@
 ////////////////////////////////////////////
 
 .logo {
-    background-image: url(../img/logo.PNG);
+    background-image: url(../img/logo2.PNG);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95px;
+    height: 100px;
     width: 367px;
     margin-top: 12px;
     cursor: pointer;
 }
+
+////////////////////////////////////////////
+// Main Page images
+////////////////////////////////////////////
+
+.carousel-image {
+    background-image: url(../img/builders.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 1183px;
+    position: absolute;
+    top: 40px;
+    left: 360px;
+}
+.card-image {
+
+    height: 183px;
+    width: 95%;
+    img {
+        width: 100%;
+        border-left: 10px solid #2f2583;
+        padding-left: 10px;
+    }
+  
+}
+
+.about-image {
+    min-height: 460px;
+    min-width: 755px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-left: 20px;
+    &:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    border-left: 0 solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 460px solid #2f2583;
+    }
+    img {
+    min-height: 460px;
+    max-height: 460px;
+    min-width: 755px;
+    //filter: brightness(50%);
+    }
+}
+

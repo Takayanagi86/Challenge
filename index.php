@@ -20,7 +20,13 @@
     <?php
     include(__DIR__ . '/inc/main.php');
     ?>
-    <!-- Main -->        
+    <!-- Main -->
+    
+    <!-- Contact Form -->   
+    <?php
+    include(__DIR__ . '/inc/contactForm.php');
+    ?>
+    <!-- Contact Form -->        
 
     <!-- Footer -->   
     <?php

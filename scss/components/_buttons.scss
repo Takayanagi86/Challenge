@@ -1,1 +1,67 @@
-//rstjsrtjrtsj
+////////////////////////////////////////////
+// Main Page buttons
+////////////////////////////////////////////
+
+.card-button {
+    position: relative;
+    margin-top: 12px;
+    padding-top: 12px;
+    width: 150px;
+    height: 38px;
+    background: #2f2583;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    text-align: left;
+    padding-left: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    a {
+        position: absolute; 
+        top: 15px;
+        left: 30px;
+        text-decoration: none;
+        color: #fff;
+    }
+    img {
+        position: absolute;
+        top: -15px;
+        right: -50px;    
+        transform: scale(0.5);
+    }
+}
+
+.about-button {
+    position: relative;
+    margin-top: 40px;
+    padding-top: 12px;
+    width: 150px;
+    height: 38px;
+    background: #fff;
+    border-radius: 30px;
+    color: black;
+    border: none;
+    text-align: left;
+    padding-left: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    a {
+        position: absolute; 
+        top: 15px;
+        left: 30px;
+        text-decoration: none;
+        color: black;
+        letter-spacing:0.5px;
+        line-height:24px;
+        font-size: 16px;
+    }
+    img {
+        position: absolute;
+        top: -5px;
+        right: -50px;    
+        transform: scale(0.5);
+        color: black;
+    }
+}
