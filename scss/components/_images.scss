@@ -1,3 +1,13 @@
 ////////////////////////////////////////////
 // About Page images
 ////////////////////////////////////////////
+
+.logo {
+    background-image: url(../img/logo.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95px;
+    width: 367px;
+    margin-top: 12px;
+    cursor: pointer;
+}

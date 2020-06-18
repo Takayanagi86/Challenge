@@ -1,4 +1,62 @@
 ////////////////////////////////////////////
+// Header Containers
+////////////////////////////////////////////
+
+.header-container {
+    height: 169px;
+    .header-top{
+        height: 40px;
+        font-size: 16px;
+        text-transform: uppercase;
+        background-color: #ddd;
+        .top-container{
+            width: 1183px;
+            padding: 8px 20px 0;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            justify-content: flex-end;
+            font-family: 'noto sans';
+        }
+    }
+    .header-bottom {
+        height: 129px;
+        .bottom-container {
+            height: 100%;
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            .menu-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 775px;
+                margin-left: 39px;
+                div{
+                    padding-top: 50px;
+                    font-family: 'noto sans';
+                    color: #2f2583;
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                    cursor: pointer;
+                }
+                .roofing {
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}
+
+
+
+////////////////////////////////////////////
 // Main Page Containers
 ////////////////////////////////////////////
 
